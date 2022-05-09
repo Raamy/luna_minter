@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 .App {
   text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  color: white;
 }
 
 .App-logo {
@@ -28,6 +31,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form {
+  background: rgba(0, 0, 30, 0.7);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+.form-input {
+  border-radius: 0;
+}
+
+body {
+  background-image: linear-gradient(
+          115deg,
+          rgba(255, 0, 0, 0.4),
+          rgba(255, 0, 0, 0.4)
+  ),
+  url(https://media-exp1.licdn.com/dms/image/C561BAQEgL6CpdGdm5A/company-background_10000/0/1571043556556?e=2147483647&v=beta&t=pUZFd7ZBABsm1k6dM2THmPAV9NTEba6dAfeks2Sk4yE);
+  background-size: cover;
 }
