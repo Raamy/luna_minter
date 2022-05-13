@@ -7,7 +7,9 @@ import {Routes, Route} from 'react-router-dom';
 import Create from "./components/views/Create";
 import Home from "./components/views/Home";
 
+
 function App() {
+
     return (
         <div className="App">
             <NavigationBar/>
